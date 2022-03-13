@@ -2,6 +2,7 @@
 
 /* 
   Plugin Name: Fouad Vollmer – Easy Init 
+  Description: Setting up and customizing the Fouad Vollmer Custom Theme with ease.
   Plugin URI: https://github.com/fouadvollmer/plugin-easy-init
   Plugin Author: Fouad Vollmer Werbeagentur
   Author URI: https://www.fouadvollmer.de
@@ -13,13 +14,14 @@
     includeInterface();
   }
 
-  function fv_ei_change_acf_loading_location( $path ) {
-      return plugin_dir_path( __FILE__ ) . '/acf-json';
-  }
-
   add_action('wp_head', 'fv_ei_add_interface');
 
+  function fv_ei_change_acf_loading_location( $path ) {
+    return plugin_dir_path( __FILE__ ) . './src/acf-json';
+  }
+
   add_filter('acf/settings/save_json', 'fv_ei_change_acf_loading_location');
+  add_filter('acf/settings/load_json', 'fv_ei_change_acf_loading_location');
 
   // ACF Add Theme Settings Page
   if( function_exists( 'acf_add_options_page' ) ) {
