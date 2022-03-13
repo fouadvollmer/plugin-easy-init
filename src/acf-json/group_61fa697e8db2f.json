@@ -106,44 +106,6 @@
             "placeholder": ""
         },
         {
-            "key": "field_620246d43cc32",
-            "label": "Informationen",
-            "name": "fvt_footer_information",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "visual",
-            "toolbar": "basic",
-            "media_upload": 0,
-            "delay": 0
-        },
-        {
-            "key": "field_620246f93cc33",
-            "label": "Google Maps",
-            "name": "fvt_footer_google_maps",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
             "key": "field_61fa748ba8068",
             "label": "Fonts",
             "name": "",
@@ -1333,5 +1295,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1647191458
+    "modified": 1647191738
 }
