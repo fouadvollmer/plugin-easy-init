@@ -22,5 +22,3 @@ git push origin --tags
 # Exit and delete
 git co master
 git branch -D release/v$1
-
-cd -
