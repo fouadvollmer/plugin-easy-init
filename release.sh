@@ -11,6 +11,8 @@ if [ $remember != 'y' ]; then
     exit 1
 fi
 
+sed -i '' -E "s/Version: .*/Version: $1/" fvw-easy-init.php
+
 # Set release version
 git checkout -b release/v$1 origin/master
 

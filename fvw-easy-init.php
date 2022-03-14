@@ -4,11 +4,12 @@
   Plugin Name: Fouad Vollmer – Easy Init 
   Description: Setting up and customizing the Fouad Vollmer Custom Theme with ease.
   Plugin URI: https://github.com/fouadvollmer/plugin-easy-init
-  Plugin Author: Fouad Vollmer Werbeagentur
+  Author: Fouad Vollmer Werbeagentur
   Author URI: https://www.fouadvollmer.de
+  Version: 0.0.0
 */
 
-  include( plugin_dir_path( __FILE__ ) . './src/interface.php' );
+  require_once plugin_dir_path( __FILE__ ) . '/src/interface.php';
 
   function fv_ei_add_interface () {
     includeInterface();
