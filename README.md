@@ -14,6 +14,7 @@ Wordpress Plugin to simplify the setup process for the [Fouad Vollmer Custom The
 2. Install and activate [Fouad Vollmer Custom Theme](https://github.com/fouadvollmer/theme) by following the installation steps in the README.
 3. Install and activate Advanced Custom Fields Pro plugin.
 4. Install and Actiate the Easy Init plugin.
+5. Load the ACF Field Group in the Sychronizations tab on the ACF groups page.
 
 ## Usage 
 
