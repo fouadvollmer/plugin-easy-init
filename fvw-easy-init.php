@@ -6,7 +6,7 @@
   Plugin URI: https://github.com/fouadvollmer/plugin-easy-init
   Author: Fouad Vollmer Werbeagentur
   Author URI: https://www.fouadvollmer.de
-  Version: 0.0.0
+  Version: 1.0.4
 */
 
   require_once plugin_dir_path( __FILE__ ) . '/src/interface.php';
