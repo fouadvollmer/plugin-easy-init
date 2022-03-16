@@ -1,4 +1,3 @@
-<!-- Backend Variables -->
 <?php
   function RGBtoHSL($color) {
     $r = $color['red']; $g = $color['green']; $b = $color['blue'];

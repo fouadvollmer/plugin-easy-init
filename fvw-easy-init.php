@@ -17,6 +17,8 @@
 
   add_action('wp_head', 'fv_ei_add_interface');
 
+
+  // ACF Add Easy Init Field Group
   function fv_ei_change_acf_loading_location( $path ) {
     return plugin_dir_path( __FILE__ ) . './src/acf-json';
   }
